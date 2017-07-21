@@ -7,7 +7,9 @@ if((a>b)&&(a>c))
 printf("a is bir");
 else if(b>c)
 printf("b is big");
-else
+else if(c>a)
 printf("c is big");
+else
+printf("all equal");
 return 0;
 }
