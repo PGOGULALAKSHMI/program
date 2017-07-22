@@ -2,6 +2,7 @@
 int main()
 {
 int n;
+scanf("%d",&n);
 if(n%400==0)
 printf("leap year");
 else if(n%100==0)
