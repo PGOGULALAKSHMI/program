@@ -1,9 +1,9 @@
 #include <stdio.h>
-
-int main(void) {
-	// your code goes here
-	char a[2]="42";
-	int num=atoi(a);
-	printf("%d",num);
-	return 0;
+#include <stdlib.h>
+ 
+int main(){
+    char inputString[20];
+    gets(inputString);
+    printf("Integer: %d \n", atoi(inputString));
+    return 0;
 }
